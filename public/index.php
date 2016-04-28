@@ -47,6 +47,6 @@ echo "<br>";
 
 for ($i=0;$i<=($q-1);$i++) {
     if (!in_array("$off[$i]", $board)) {
-        echo "The brake point is " . $off[$i];
+        echo "The break point is " . $off[$i];
     }
 }
